@@ -2,7 +2,7 @@
 <div>
     <h1>Timers</h1>
   <Button @btn-clicked="sayhi" :text="'heyy'" :color="'green'"/>
-  <Countdown :totalTime=454235623 />
+  <Countdown :totalTime=4535623 />
 </div>
 
 </template>
