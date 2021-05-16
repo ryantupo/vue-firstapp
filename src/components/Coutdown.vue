@@ -1,7 +1,5 @@
 <template>
-    <div>
-    
-    {{ timerCount }}
+    <div class="">
     <div class="padding mainBlock">
     <div style="margin-right:50px;" class="padding numberBlock">
     <p>{{ this.amountOfDays }}</p>
@@ -75,29 +73,36 @@ export default {
 
 <style>
 .numberBlock {
+  
   vertical-align: middle;
   text-align: center;
   width: 50px;
   height: 50px;
-  background-color: aquamarine;
+  background: linear-gradient(#e66465, #9198e5);
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .mainBlock {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top:50px;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   width: 400px;
-
   padding: 50px;
+  margin-bottom: 50px;
 }
 
 .padding {
-  border-color: black;
+  background: linear-gradient(#e66465, #9198e5);
   border-style: solid;
   border-width: 5px 5px;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.center{
+  position:absolute;
+  top:50%;
+  left:50%;
+
 }
 </style>
